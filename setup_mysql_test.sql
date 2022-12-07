@@ -4,6 +4,7 @@
 --   Grants all privileges for hbnb_test on hbnb_test_db.
 --   Grants SELECT privilege for hbnb_dev on performance_schema.
 
+
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
 CREATE USER
     IF NOT EXISTS 'hbnb_test'@'localhost'
